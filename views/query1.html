@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>query1</title>
+</head>
+<body>
+    <p> Opensoda-Cli  v1.6.4 by Yiren Lin
+        Opendigger cli research tool
+        
+        Usage: opendigger [options]
+        
+        Options:
+              --version     Show version number                                [boolean]
+          -r, --repository  指定查询的仓库，默认为 X-lab2017/oss101  [string] [required]
+          -d, --download    是否将结果导出，输入此选择，即为true               [boolean]
+          -m, --metric      是否查询特殊的metric，默认为openrank                [string]
+          -t, --time        输入需要查询的时间                                  [string]
+          -h, --help        Show help                                          [boolean]
+        
+        Examples:
+          opendigger -r X-lab2017/oss101 -d -m      查询 X-lab2017/oss101 仓库在
+          openrank -t 2020-01-01                    2020-01-01 的 openrank
+                                                    值，并将结果导出到 ./output 文件夹下
+        
+        copyright 2023</p>
+</body>
+</html>

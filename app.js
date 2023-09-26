@@ -3,6 +3,7 @@ var express = require('express');
 var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
+var bodyParser = require('body-parser'); // 引入 body-parser 中间件
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
